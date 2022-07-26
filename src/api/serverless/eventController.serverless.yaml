@@ -1,0 +1,7 @@
+createEvent:
+  handler: src/api/eventController.createEvent
+  events:
+    - http:
+        path: event
+        method: POST
+        cors: true
