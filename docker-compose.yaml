@@ -1,0 +1,29 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      target: app
+    restart: always
+    depends_on:
+      - db
+    env_file:
+      - .env
+    volumes:
+      - ./src:/usr/src/app/src
+    ports:
+      - 3000:3000
+  db:
+    image: amazon/dynamodb-local
+    expose:
+      - 8000
+    volumes:
+      - ./.db:/home/dynamodblocal/.db
+    command:
+      [
+        '-jar',
+        'DynamoDBLocal.jar',
+        '-sharedDb',
+        '-dbPath',
+        '/home/dynamodblocal/.db'
+      ]

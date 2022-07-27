@@ -1,0 +1,32 @@
+{
+  "env": {
+    "es2020": true
+  },
+  "root": true,
+  "extends": ["plugin:@typescript-eslint/recommended", "plugin:mocha/recommended", "prettier"],
+  "rules": {
+    "tsdoc/syntax": "warn",
+    "prettier/prettier": 2,
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "no-console": ["error", { "allow": ["warn", "error"] }]
+  },
+  "plugins": ["mocha", "eslint-plugin-tsdoc", "prettier"],
+  "globals": {
+    "__dirname": true,
+    "__filename": true,
+    "after": true,
+    "before": true,
+    "describe": true,
+    "exports": true,
+    "it": true,
+    "process": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    // "tsconfigRootDir": __dirname,
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  }
+}

@@ -1,0 +1,94 @@
+service: outvoice-secure-api
+useDotenv: true
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: ${env:STAGE}
+  region: ${env:REGION}
+  environment:
+    NODE_ENV: ${env:NODE_ENV}
+    STAGE: ${env:STAGE}
+    S3_ACCESS: ${env:S3_ACCESS}
+    S3_SECRET: ${env:S3_SECRET}
+    IMDB_KEY: ${env:IMDB_KEY}
+  apiGateway:
+    shouldStartNameWithService: true
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource:
+        - { 'Fn::GetAtt': ['FichronEventTable', 'Arn'] }
+        - { 'Fn::Join': ['/', [{ 'Fn::GetAtt': ['FichronEventTable', 'Arn'] }, 'index', 'fictionName-index']] }
+        - { 'Fn::Join': ['/', [{ 'Fn::GetAtt': ['FichronEventTable', 'Arn'] }, 'index', 'propertyImdbId-index']] }
+        - { 'Fn::Join': ['/', [{ 'Fn::GetAtt': ['FichronEventTable', 'Arn'] }, 'index', 'characterName-index']] }
+functions:
+  - '${file(src/api/serverless/eventController.serverless.yaml)}'
+resources:
+  Resources:
+    FichronEventTable:
+      Type: 'AWS::DynamoDB::Table'
+      Properties:
+        TableName: FichronEvent-${env:STAGE}
+        AttributeDefinitions:
+          - AttributeName: id
+            AttributeType: S
+          - AttributeName: fictionName
+            AttributeType: S
+          - AttributeName: propertyImdbId
+            AttributeType: S
+          - AttributeName: characterName
+            AttributeType: S
+        KeySchema:
+          - AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 5
+          WriteCapacityUnits: 5
+        GlobalSecondaryIndexes:
+          - IndexName: fictionName-index
+            KeySchema:
+              - AttributeName: fictionName
+                KeyType: HASH
+            Projection:
+              ProjectionType: ALL
+            ProvisionedThroughput:
+              ReadCapacityUnits: 5
+              WriteCapacityUnits: 5
+          - IndexName: propertyImdbId-index
+            KeySchema:
+              - AttributeName: propertyImdbId
+                KeyType: HASH
+            Projection:
+              ProjectionType: ALL
+            ProvisionedThroughput:
+              ReadCapacityUnits: 5
+              WriteCapacityUnits: 5
+          - IndexName: characterName-index
+            KeySchema:
+              - AttributeName: characterName
+                KeyType: HASH
+            Projection:
+              ProjectionType: ALL
+            ProvisionedThroughput:
+              ReadCapacityUnits: 5
+              WriteCapacityUnits: 5
+plugins:
+  - serverless-plugin-typescript
+  - serverless-dynamodb-local
+  - serverless-offline
+custom:
+  dynamodb:
+    stages:
+      - local
+    start:
+      host: db
+      port: 8000
+      noStart: true
+      migrate: true
