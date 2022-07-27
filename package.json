@@ -21,6 +21,7 @@
   "homepage": "https://github.com/revjtanton/fichron#readme",
   "devDependencies": {
     "@types/aws-lambda": "^8.10.101",
+    "@types/uuid": "^8.3.4",
     "eslint": "^8.20.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -36,7 +37,9 @@
   "dependencies": {
     "aws-lambda": "^1.0.7",
     "aws-sdk": "^2.1181.0",
+    "axios": "^0.27.2",
     "joi": "^17.6.0",
-    "lambda-restful-util": "^1.0.2"
+    "lambda-restful-util": "^1.0.2",
+    "uuid": "^8.3.2"
   }
 }

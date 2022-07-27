@@ -2,6 +2,28 @@ createEvent:
   handler: src/api/eventController.createEvent
   events:
     - http:
-        path: event
+        path: event/{fictionName}/{propertyName}
         method: POST
         cors: true
+getPropertyEvents:
+  handler: src/api/eventController.getPropertyEvents
+  events:
+    - http:
+        path: property/{fictionName}/{propertyName}
+        method: GET
+        cors: true
+        request:
+          parameters:
+            paths:
+              movieName: true
+getCharacterEvents:
+  handler: src/api/eventController.getCharacterEvents
+  events:
+    - http:
+        path: character/{fictionName}/{characterName}
+        method: GET
+        cors: true
+        request:
+          parameters:
+            paths:
+              movieName: true
