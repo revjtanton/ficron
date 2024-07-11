@@ -7,9 +7,6 @@ primary_timeline:
     sacred_timeline: true
     fichron_start: "2012"
     fichron_end: "infinity"
-  - title: "Fantastic 4: Rise of the Silver Surfer"
-    type: movie
-    sacred_timeline: false 
   - title: Silver Surfer Season 1
     type: show
     sacred_timeline: false
@@ -202,9 +199,6 @@ primary_timeline:
     sacred_timeline: true 
     fichron_start: "2025"
     fichron_end: "2025"
-  - title: Electra
-    type: movie
-    sacred_timeline: false 
   - title: Ms. Marvel
     type: show 
     sacred_timeline: true 
@@ -213,8 +207,22 @@ primary_timeline:
   - title: X-Men The Animated Series S04E18-S04E21
     type: show 
     sacred_timeline: false
+  - title: Logan
+    type: movie
+    sacred_timeline: false 
+  - title: "Fantastic 4: Rise of the Silver Surfer"
+    type: movie
+    sacred_timeline: false 
+  - title: Inhumans S01E01
+    type: show
+    sacred_timeline: false 
   - title: Doctor Strange and the Multiverse of Madness
     type: movie
+    sacred_timeline: true 
+    fichron_start: "2025"
+    fichron_end: "2025"
+  - title: The Eternals
+    type: movie 
     sacred_timeline: true 
     fichron_start: "2025"
     fichron_end: "2025"
@@ -252,7 +260,7 @@ primary_timeline:
   - title: What If S02E03-S02E09
     type: show 
     sacred_timeline: false 
-  - title: X-Men The Animated Series S04E01-S04E02, S04E07, S04E09-S04E10
+  - title: X-Men The Animated Series S04E01-S04E02, S04E07, S04E09-S04E10, S05E07, S05E10
     type: show 
     sacred_timeline: false
   - title: The Marvels
@@ -263,8 +271,61 @@ primary_timeline:
   - title: X-Men '97 Season 1
     type: show 
     sacred_timeline: false
+  - title: Elektra
+    type: movie 
+    sacred_timeline: false
   - title: Deadpool 3
     type: movie 
     sacred_timeline: true
     fichron_start: "invalid"
-    fichron_end: "2027"
+    fichron_end: "tbd"
+  - title: Agatha All Along
+    type: show 
+    sacred_timeline: true 
+    fichron_start: "tbd"
+    fichron_end: "tbd"
+  - title: "Captain America: Brave New World"
+    type: movie 
+    sacred_timeline: true
+    fichron_start: "tbd"
+    fichron_end: "tbd"
+  - title: Thunderbolts
+    type: movie 
+    sacred_timeline: true
+    fichron_start: "tbd"
+    fichron_end: "tbd"
+  - title: "Daredevil: Born Again"
+    type: show 
+    sacred_timeline: true 
+    fichron_start: "tbd"
+    fichron_end: "tbd"
+  - title: The Fantastic Four
+    type: movie 
+    sacred_timeline: true
+    fichron_start: "tbd"
+    fichron_end: "tbd"
+  - title: Ironheart
+    type: show 
+    sacred_timeline: true 
+    fichron_start: "tbd"
+    fichron_end: "tbd"
+  - title: Wonder Man
+    type: show 
+    sacred_timeline: true 
+    fichron_start: "tbd"
+    fichron_end: "tbd"
+  - title: Blade
+    type: movie 
+    sacred_timeline: true
+    fichron_start: "tbd"
+    fichron_end: "tbd"
+  - title: "Avengers: (tbd)"
+    type: movie 
+    sacred_timeline: true
+    fichron_start: "tbd"
+    fichron_end: "tbd"
+  - title: "Avengers: Secret Wars"
+    type: movie 
+    sacred_timeline: true
+    fichron_start: "tbd"
+    fichron_end: "tbd"

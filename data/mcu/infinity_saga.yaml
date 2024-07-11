@@ -112,11 +112,15 @@ primary_timeline:
     type: movie 
     fichron_start: "2015"
     fichron_end: "2015"
+  - title: Daredevil S02E01-S02E06
+    type: show 
+    fichron_start: "2015"
+    fichron_end: "2015"
   - title: Ant-Man 
     type: movie 
     fichron_start: "2015"
     fichron_end: "2015"
-  - title: Daredevil Season 2
+  - title: Daredevil S02E07-S02E13
     type: show 
     fichron_start: "2015"
     fichron_end: "2015"
@@ -148,32 +152,46 @@ primary_timeline:
     type: movie 
     fichron_start: "2016"
     fichron_end: "2016"
+  - title: Punisher Season 1
+    type: show 
+    fichron_start: "2016"
+    fichron_end: "2016"
   - title: Doctor Strange 
     type: movie 
     fichron_start: "2016"
     fichron_end: "2017"
-  - title: Punisher Season 1
-    type: show 
-    fichron_start: "2016"
-    fichron_end: "2017"
   - title: Jessica Jones Season 2 
     type: show 
-    fichron_start: "2016"
+    fichron_start: "2017"
     fichron_end: "2017"
   - title: Luke Cage Season 2
     type: show 
+    fichron_start: "2017"
+    fichron_end: "2017"
   - title: Iron Fist Season 2
     type: show 
+    fichron_start: "2017"
+    fichron_end: "2017"
   - title: Daredevil Season 3
     type: show 
     fichron_start: "2016"
     fichron_end: "2017"
   - title: Cloak and Dagger Season 1
     type: show 
+    fichron_start: "2017"
+    fichron_end: "2017"
   - title: Punisher Season 2
     type: show
+    fichron_start: "2017"
+    fichron_end: "2017"
+  - title: Jessica Jones Season 3
+    type: show 
+    fichron_start: "2017"
+    fichron_end: "2017"
   - title: Cloak and Dagger Season 2
     type: show 
+    fichron_start: "2018"
+    fichron_end: "2018"
   - title: Ant-Man and the Wasp
     type: movie 
     fichron_start: "2018"
