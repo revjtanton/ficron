@@ -1,0 +1,7 @@
+name: Strategic Scientific Reserve
+alias: SSR 
+type: agency
+parent: "./usa.yaml"
+founded_date: "1940"
+status: replaced
+replaced_by: "./shield.yaml"

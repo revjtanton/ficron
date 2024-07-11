@@ -1,0 +1,16 @@
+title: Captain Marvel
+type: movie
+release_date: "2019"
+fictional_timeline:
+  - sacred: true
+  - start: "1995"
+  - end: "1995"
+  - flash:
+    forward:
+      - "2018"
+primary_protagonist: "../character/prime/carol_danvers.yaml"
+teams:
+  - Kree:
+    ref: "../character/prime/team/kree.yaml"
+    members:
+      - ref: "../character/prime/yon-rogg.yaml"

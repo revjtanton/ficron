@@ -1,0 +1,9 @@
+name: The United States of America
+alias:
+  - USA
+  - America
+type: government
+subdivisions:
+  - ref: "ssr.yaml"
+founded_date: "1776"
+status: active

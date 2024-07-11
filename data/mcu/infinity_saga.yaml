@@ -1,0 +1,192 @@
+title: Infinity Saga
+parent: Marvel Cinematic Universe
+multiverse: false
+primary_timeline:
+  - title: Agent Carter
+    type: one-shot
+    fichron_start: "1946"
+    fichron_end: "1946"
+  - title: Captain Marvel
+    type: movie
+    fichron_start: "1995"
+    fichron_end: "1995"
+    fichron_flashes:
+      - type: forward
+        element: mid-credits
+        fichron_start: "2018"
+        fichron_end: "2018"
+  - title: "Captain America: The First Avenger"
+    type: movie 
+    fichron_start: "2008"
+    fichron_end: "2010"
+    fichron_flashes:
+      - type: back
+        element: in-movie
+        fichron_start: "1942"
+        fichron_end: "1945"
+      - type: forward 
+        element: after-credits
+        fichron_date: "2012"
+  - title: Iron Man
+    type: movie 
+    fichron_start: "2009"
+    fichron_end: "2010"
+  - title: Iron Man 2
+    type: movie 
+    fichron_start: "2010"
+    fichron_end: "2010"
+    furrys_big_week: true
+  - title: A Funny Thing Happened on the Way to Thor's Hammer
+    type: one-shot 
+    fichron_start: "2010" 
+    fichron_end: "2010"
+    furrys_big_week: true 
+  - title: Thor 
+    type: movie 
+    fichron_start: "2010" 
+    fichron_end: "2010"
+    furrys_big_week: true
+    fichron_flashes:
+      - type: back 
+        element: in-movie 
+        fichron_start: "965"
+        fichron_end: "965"
+      - type: forward 
+        element: post-credits
+        fichron_start: "2011"
+        fichron_end: "2011" 
+  - title: The Consultant
+    type: one-shot 
+    fichron_start: "2011" 
+    fichron_end: "2011" 
+  - title: The Avengers
+    type: movie 
+    fichron_start: "2012" 
+    fichron_end: "2012" 
+  - title: Item 47 
+    type: one-shot 
+    fichron_start: "2012" 
+    fichron_end: "2012"
+  - title: "Thor: The Dark World"
+    type: movie 
+    fichron_start: "2012" 
+    fichron_end: "2012"
+    fichron_flashes:
+      - type: back
+        element: in-movie 
+        fichron_start: "2988 BCE"
+        fichron_end: "2988 BCE"
+  - title: Iron Man 3 
+    type: movie 
+    fichron_start: "2012"
+    fichron_end: "2013"
+  - title: "Captain America: The Winter Soldier"
+    type: movie 
+    fichron_start: "2013"
+    fichron_end: "2013"
+  - title: Daredevil Season 1
+    type: show 
+    fichron_start: "2013"
+    fichron_end: "2014"
+  - title: Jessica Jones Season 1
+    type: show 
+    fichron_start: "2014"
+    fichron_end: "2014"
+  - title: All Hail the King
+    type: one-shot
+    fichron_start: "2014"
+    fichron_end: "2014"
+  - title: Guardians of the Galaxy 
+    type: movie 
+    fichron_start: "2014"
+    fichron_end: "2014"
+  - title: I Am Groot
+    type: web-series 
+    fichron_start: "2014"
+    fichron_end: "2015"
+  - title: Guardians of the Galaxy Volume 2
+    type: movie 
+    fichron_start: "2015"
+    fichron_end: "2015"
+  - title: "Avengers: Age of Ultron"
+    type: movie 
+    fichron_start: "2015"
+    fichron_end: "2015"
+  - title: Ant-Man 
+    type: movie 
+    fichron_start: "2015"
+    fichron_end: "2015"
+  - title: Daredevil Season 2
+    type: show 
+    fichron_start: "2015"
+    fichron_end: "2015"
+  - title: Luke Cage Season 1
+    type: show 
+    fichron_start: "2015"
+    fichron_end: "2015"
+  - title: Iron Fist Season 1
+    type: show 
+    fichron_start: "2016"
+    fichron_end: "2016"
+  - title: Defenders
+    type: show 
+    fichron_start: "2016"
+    fichron_end: "2016"
+  - title: "Captain America: Civil War"
+    type: movie 
+    fichron_start: "2016"
+    fichron_end: "2016"
+  - title: Black Widow 
+    type: movie 
+    fichron_start: "2016"
+    fichron_end: "2016"
+  - title: Black Panther 
+    type: movie 
+    fichron_start: "2016"
+    fichron_end: "2016"
+  - title: Spider-Man Homecoming
+    type: movie 
+    fichron_start: "2016"
+    fichron_end: "2016"
+  - title: Doctor Strange 
+    type: movie 
+    fichron_start: "2016"
+    fichron_end: "2017"
+  - title: Punisher Season 1
+    type: show 
+    fichron_start: "2016"
+    fichron_end: "2017"
+  - title: Jessica Jones Season 2 
+    type: show 
+    fichron_start: "2016"
+    fichron_end: "2017"
+  - title: Luke Cage Season 2
+    type: show 
+  - title: Iron Fist Season 2
+    type: show 
+  - title: Daredevil Season 3
+    type: show 
+    fichron_start: "2016"
+    fichron_end: "2017"
+  - title: Cloak and Dagger Season 1
+    type: show 
+  - title: Punisher Season 2
+    type: show
+  - title: Cloak and Dagger Season 2
+    type: show 
+  - title: Ant-Man and the Wasp
+    type: movie 
+    fichron_start: "2018"
+    fichron_end: "2018"
+  - title: "Thor: Ragnarok"
+    type: movie 
+    fichron_start: "2018"
+    fichron_end: "2018"
+  - title: "Avengers: Infinity War"
+    type: movie
+    fichron_start: "2018"
+    fichron_end: "2018"
+  - title: "Avengers: Endgame"
+    type: movie
+    fichron_start: "2018"
+    fichron_end: "2023"

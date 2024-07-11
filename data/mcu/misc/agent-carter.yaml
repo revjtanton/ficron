@@ -1,0 +1,19 @@
+title: Agent Carter
+type: One-Shot
+release_date: "2013"
+fictional_timeline:
+  - sacred: true
+  - start: "1946"
+  - end: "1946"
+primary_protagonist: "../character/prime/peggy_carter.yaml"
+teams:
+  - SSR:
+    ref: "../character/prime/team/ssr.yaml"
+    members:
+      - ref: "../character/prime/peggy_carter.yaml"
+        title: "Agent"
+character_appearances:
+  - ref: "../character/prime/howard_stark.yaml"
+  - ref: "../character/prime/timothy_dugan.yaml"
+mentions:
+  - ref: "character/prime/team/shield.yaml"

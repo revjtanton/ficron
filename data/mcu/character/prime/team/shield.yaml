@@ -1,0 +1,10 @@
+name: Strategic Homeland Intervention, Enforcement and Logsitics Division
+alias: SHIELD 
+type: agency 
+parent: "./usa.yaml"
+preceded_by: "./ssr.yaml"
+founders:
+  - "../peggy_carter.yaml"
+  - "../howard_stark.yaml"
+status: disbanded
+dissolved_date: "2014"
