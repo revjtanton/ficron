@@ -100,12 +100,16 @@ primary_timeline:
     type: movie 
     fichron_start: "2014"
     fichron_end: "2014"
-  - title: I Am Groot
+  - title: I Am Groot Season 1
     type: web-series 
     fichron_start: "2014"
     fichron_end: "2015"
   - title: Guardians of the Galaxy Volume 2
     type: movie 
+    fichron_start: "2015"
+    fichron_end: "2015"
+  - title: I Am Groot Season 2
+    type: web-series 
     fichron_start: "2015"
     fichron_end: "2015"
   - title: "Avengers: Age of Ultron"
