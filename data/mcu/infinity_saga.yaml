@@ -116,7 +116,7 @@ primary_timeline:
     type: movie 
     fichron_start: "2015"
     fichron_end: "2015"
-  - title: Daredevil S02E01-S02E06
+  - title: Daredevil S02E01-S02E04
     type: show 
     fichron_start: "2015"
     fichron_end: "2015"
@@ -124,19 +124,39 @@ primary_timeline:
     type: movie 
     fichron_start: "2015"
     fichron_end: "2015"
-  - title: Daredevil S02E07-S02E13
+  - title: Daredevil S02E05-S02E08
     type: show 
     fichron_start: "2015"
     fichron_end: "2015"
-  - title: Luke Cage Season 1
+  - title: Luke Cage S01E01
     type: show 
     fichron_start: "2015"
     fichron_end: "2015"
-  - title: Iron Fist Season 1
+  - title: Daredevil S02E09
     type: show 
-    fichron_start: "2016"
+    fichron_start: "2015"
+    fichron_end: "2015"
+  - title: Luke Cage S01E02
+    type: show 
+    fichron_start: "2015"
+    fichron_end: "2015"
+  - title: Daredevil S02E10
+    type: show 
+    fichron_start: "2015"
+    fichron_end: "2015"
+  - title: Luke Cage S01E03-S01E04
+    type: show 
+    fichron_start: "2015"
+    fichron_end: "2015"
+  - title: Daredevil S02E11-S02E13
+    type: show 
+    fichron_start: "2015"
+    fichron_end: "2015"
+  - title: Luke Cage S01E05-S01E06
+    type: show 
+    fichron_start: "2015"
     fichron_end: "2016"
-  - title: Defenders
+  - title: Iron Fist Season S01E01
     type: show 
     fichron_start: "2016"
     fichron_end: "2016"
@@ -144,26 +164,34 @@ primary_timeline:
     type: movie 
     fichron_start: "2016"
     fichron_end: "2016"
+  - title: The Defenders S01E01-S01E02
+    type: show 
+    fichron_start: "2016"
+    fichron_end: "2016"
   - title: Black Widow 
     type: movie 
+    fichron_start: "2016"
+    fichron_end: "2016"
+  - title: The Defenders S01E03-S01E06
+    type: show 
     fichron_start: "2016"
     fichron_end: "2016"
   - title: Black Panther 
     type: movie 
     fichron_start: "2016"
     fichron_end: "2016"
-  - title: Spider-Man Homecoming
-    type: movie 
+  - title: Defenders S01E07-S01E08
+    type: show 
     fichron_start: "2016"
     fichron_end: "2016"
   - title: Punisher Season 1
     type: show 
     fichron_start: "2016"
     fichron_end: "2016"
-  - title: Doctor Strange 
+  - title: Spider-Man Homecoming
     type: movie 
     fichron_start: "2016"
-    fichron_end: "2017"
+    fichron_end: "2016"
   - title: Jessica Jones Season 2 
     type: show 
     fichron_start: "2017"
@@ -171,6 +199,10 @@ primary_timeline:
   - title: Luke Cage Season 2
     type: show 
     fichron_start: "2017"
+    fichron_end: "2017"
+  - title: Doctor Strange 
+    type: movie 
+    fichron_start: "2016"
     fichron_end: "2017"
   - title: Iron Fist Season 2
     type: show 
@@ -180,10 +212,6 @@ primary_timeline:
     type: show 
     fichron_start: "2016"
     fichron_end: "2017"
-  - title: Cloak and Dagger Season 1
-    type: show 
-    fichron_start: "2017"
-    fichron_end: "2017"
   - title: Punisher Season 2
     type: show
     fichron_start: "2017"
@@ -192,10 +220,6 @@ primary_timeline:
     type: show 
     fichron_start: "2017"
     fichron_end: "2017"
-  - title: Cloak and Dagger Season 2
-    type: show 
-    fichron_start: "2018"
-    fichron_end: "2018"
   - title: Ant-Man and the Wasp
     type: movie 
     fichron_start: "2018"

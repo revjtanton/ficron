@@ -2,20 +2,34 @@ title: Multiverse Saga
 parent: Marvel Cinematic Universe
 multiverse: true
 primary_timeline:
-  - title: Loki Season 1 & 2
+  - title: Loki Season 1
     type: show
     sacred_timeline: true
     fichron_start: "2012"
     fichron_end: "infinity"
+  - title: "X-Men: First Class"
+    type: movie
+    sacred_timeline: false 
+  - title: "X-Men Origins: Wolverine"
+    type: movie
+    sacred_timeline: false 
   - title: Silver Surfer Season 1
     type: show
     sacred_timeline: false
   - title: What If S01E01
     type: show 
     sacred_timeline: false
+  - title: Loki Season 2
+    type: show
+    sacred_timeline: true
+    fichron_start: "2012"
+    fichron_end: "infinity"
   - title: X-Men The Animated Series Season 1
     type: show 
     sacred_timeline: false
+  - title: "X-Men"
+    type: movie
+    sacred_timeline: false 
   - title: WandaVision S01E01 
     type: show 
     sacred_timeline: true
@@ -27,39 +41,33 @@ primary_timeline:
   - title: What If S01E02
     type: show 
     sacred_timeline: false 
-  - title: WandaVision S01E02-S01E04
+  - title: WandaVision S01E02
     type: show 
     sacred_timeline: true 
-    fichron_start: "2023"
-    fichron_end: "2023"
-  - title: What If S01E03
-    type: show 
-    sacred_timeline: false 
-  - title: "X-Men: First Class"
-    type: movie
-    sacred_timeline: false 
-  - title: "X-Men Origins: Wolverine"
+  - title: "X2"
     type: movie
     sacred_timeline: false 
   - title: X-Men The Animated Series S03E03-S03E07
     type: show 
     sacred_timeline: false 
-  - title: "X-Men"
-    type: movie
-    sacred_timeline: false 
-  - title: "X2"
+  - title: WandaVision S01E03
+    type: show 
+    sacred_timeline: true 
+    fichron_start: "2023"
+    fichron_end: "2023"
+  - title: "The Wolverine"
     type: movie
     sacred_timeline: false 
   - title: X-Men The Animated Series S03E14-S03E17
     type: show 
     sacred_timeline: false 
-  - title: "The Wolverine"
-    type: movie
+  - title: What If S01E03
+    type: show 
     sacred_timeline: false 
   - title: "X-Men: Days of Future Past: Rouge Cut"
     type: movie
     sacred_timeline: false 
-  - title: WandaVision S01E05
+  - title: WandaVision S01E04-S01E05
     type: show 
     sacred_timeline: true 
     fichron_start: "2023"
@@ -80,7 +88,7 @@ primary_timeline:
     sacred_timeline: true 
     fichron_start: "2023"
     fichron_end: "2023"
-  - title: "Deadpool"
+  - title: "X-Men: Apocalypse"
     type: movie
     sacred_timeline: false 
   - title: Shang-Chi
@@ -101,6 +109,9 @@ primary_timeline:
     sacred_timeline: true 
     fichron_start: "2024"
     fichron_end: "2024"
+  - title: "X-Men: Dark Phoenix"
+    type: movie
+    sacred_timeline: false 
   - title: "Spider-Man: Far From Home"
     type: movie 
     sacred_timeline: true 
@@ -151,6 +162,9 @@ primary_timeline:
   - title: Into the Spider-verse 
     type: movie 
     sacred_timeline: false 
+  - title: "Venom: Let There be Carnage (post-credits only)"
+    type: movie 
+    sacred_timeline: false 
   - title: "Spider-Man: No Way Home"
     type: movie 
     sacred_timeline: true 
@@ -158,6 +172,12 @@ primary_timeline:
     fichron_end: "2024"
   - title: Across the Spider-verse 
     type: movie 
+    sacred_timeline: false 
+  - title: X-Men The Animated Series S04E08-S04E10
+    type: show 
+    sacred_timeline: false 
+  - title: "Deadpool"
+    type: movie
     sacred_timeline: false 
   - title: Hawkeye
     type: show 
@@ -185,9 +205,6 @@ primary_timeline:
     sacred_timeline: true 
     fichron_start: "2025"
     fichron_end: "2025"
-  - title: X-Men The Animated Series S04E08-S04E10
-    type: show 
-    sacred_timeline: false 
   - title: X-Men The Animated Series S04E16
     type: show 
     sacred_timeline: false 
@@ -210,9 +227,6 @@ primary_timeline:
   - title: Logan
     type: movie
     sacred_timeline: false 
-  - title: "Fantastic 4: Rise of the Silver Surfer"
-    type: movie
-    sacred_timeline: false 
   - title: Inhumans S01E01
     type: show
     sacred_timeline: false 
@@ -221,6 +235,12 @@ primary_timeline:
     sacred_timeline: true 
     fichron_start: "2025"
     fichron_end: "2025"
+  - title: "Fantastic 4: Rise of the Silver Surfer"
+    type: movie
+    sacred_timeline: false 
+  - title: What If S01E08-S01E09
+    type: show 
+    sacred_timeline: false 
   - title: The Eternals
     type: movie 
     sacred_timeline: true 
@@ -231,6 +251,9 @@ primary_timeline:
     sacred_timeline: true 
     fichron_start: "2025"
     fichron_end: "2025"
+  - title: "Blade: Trinity"
+    type: movie
+    sacred_timeline: false 
   - title: I Am Groot S02E05
     type: web-series 
     sacred_timeline: true 
@@ -241,7 +264,7 @@ primary_timeline:
     sacred_timeline: true 
     fichron_start: "2025"
     fichron_end: "2025"
-  - title: What If S01E08-S01E09
+  - title: What If Season 2
     type: show 
     sacred_timeline: false 
   - title: "Ant-Man and the Wasp: Quantumania"
@@ -249,9 +272,9 @@ primary_timeline:
     sacred_timeline: true
     fichron_start: "2026"
     fichron_end: "2026"
-  - title: What If S02E01-S02E02
+  - title: X-Men The Animated Series S04E01-S04E02, S04E07
     type: show 
-    sacred_timeline: false 
+    sacred_timeline: false
   - title: Guardians of the Galaxy Vol. 3
     type: movie 
     sacred_timeline: true
@@ -262,10 +285,7 @@ primary_timeline:
     sacred_timeline: true 
     fichron_start: "2026"
     fichron_end: "2026"
-  - title: What If S02E03-S02E09
-    type: show 
-    sacred_timeline: false 
-  - title: X-Men The Animated Series S04E01-S04E02, S04E07, S04E09-S04E10, S05E07, S05E10
+  - title: X-Men The Animated Series S04E09-S04E10, S05E07, S05E10
     type: show 
     sacred_timeline: false
   - title: The Marvels
@@ -276,6 +296,9 @@ primary_timeline:
   - title: X-Men '97 Season 1
     type: show 
     sacred_timeline: false
+  - title: Daredevil
+    type: movie 
+    sacred_timeline: false
   - title: Elektra
     type: movie 
     sacred_timeline: false
@@ -283,23 +306,23 @@ primary_timeline:
     type: movie 
     sacred_timeline: true
     fichron_start: "invalid"
-    fichron_end: "tbd"
+    fichron_end: "2027"
   - title: Agatha All Along
     type: show 
     sacred_timeline: true 
-    fichron_start: "tbd"
-    fichron_end: "tbd"
+    fichron_start: "2027"
+    fichron_end: "2027"
   - title: "Captain America: Brave New World"
     type: movie 
     sacred_timeline: true
-    fichron_start: "tbd"
-    fichron_end: "tbd"
+    fichron_start: "2027"
+    fichron_end: "2027"
   - title: Thunderbolts
     type: movie 
     sacred_timeline: true
     fichron_start: "tbd"
     fichron_end: "tbd"
-  - title: "Daredevil: Born Again"
+  - title: "Daredevil: Born Again Season 1" 
     type: show 
     sacred_timeline: true 
     fichron_start: "tbd"
