@@ -92,15 +92,11 @@ primary_timeline:
     type: show 
     fichron_start: "2014"
     fichron_end: "2014"
-  - title: All Hail the King
-    type: one-shot
-    fichron_start: "2014"
-    fichron_end: "2014"
   - title: Guardians of the Galaxy 
     type: movie 
     fichron_start: "2014"
     fichron_end: "2014"
-  - title: I Am Groot Season 1
+  - title: I Am Groot S01E01
     type: web-series 
     fichron_start: "2014"
     fichron_end: "2015"
@@ -108,15 +104,15 @@ primary_timeline:
     type: movie 
     fichron_start: "2015"
     fichron_end: "2015"
-  - title: I Am Groot S02E01-S02E04
-    type: web-series 
-    fichron_start: "2015"
-    fichron_end: "2015"
+  - title: All Hail the King
+    type: one-shot
+    fichron_start: "2014"
+    fichron_end: "2014"
   - title: "Avengers: Age of Ultron"
     type: movie 
     fichron_start: "2015"
     fichron_end: "2015"
-  - title: Daredevil S02E01-S02E04
+  - title: Daredevil S02E01, S02E03
     type: show 
     fichron_start: "2015"
     fichron_end: "2015"
@@ -124,7 +120,7 @@ primary_timeline:
     type: movie 
     fichron_start: "2015"
     fichron_end: "2015"
-  - title: Daredevil S02E05-S02E08
+  - title: Daredevil S02E05, S02E08
     type: show 
     fichron_start: "2015"
     fichron_end: "2015"
@@ -152,11 +148,11 @@ primary_timeline:
     type: show 
     fichron_start: "2015"
     fichron_end: "2015"
-  - title: Luke Cage S01E05-S01E06
+  - title: Luke Cage S01E06, S01E09, S01E11-S01E13
     type: show 
     fichron_start: "2015"
     fichron_end: "2016"
-  - title: Iron Fist Season S01E01
+  - title: Iron Fist Season S01E01, S01E04, S01E05, S01E06, S01E08
     type: show 
     fichron_start: "2016"
     fichron_end: "2016"
@@ -164,61 +160,29 @@ primary_timeline:
     type: movie 
     fichron_start: "2016"
     fichron_end: "2016"
-  - title: The Defenders S01E01-S01E02
-    type: show 
-    fichron_start: "2016"
-    fichron_end: "2016"
   - title: Black Widow 
     type: movie 
-    fichron_start: "2016"
-    fichron_end: "2016"
-  - title: The Defenders S01E03-S01E06
-    type: show 
     fichron_start: "2016"
     fichron_end: "2016"
   - title: Black Panther 
     type: movie 
     fichron_start: "2016"
     fichron_end: "2016"
-  - title: Defenders S01E07-S01E08
+  - title: Defenders Season 1
     type: show 
     fichron_start: "2016"
     fichron_end: "2016"
-  - title: Punisher Season 1
-    type: show 
-    fichron_start: "2016"
-    fichron_end: "2016"
-  - title: Spider-Man Homecoming
+  - title: "Spider-Man: Homecoming"
     type: movie 
     fichron_start: "2016"
     fichron_end: "2016"
-  - title: Jessica Jones Season 2 
-    type: show 
-    fichron_start: "2017"
-    fichron_end: "2017"
-  - title: Luke Cage Season 2
-    type: show 
-    fichron_start: "2017"
-    fichron_end: "2017"
   - title: Doctor Strange 
     type: movie 
     fichron_start: "2016"
     fichron_end: "2017"
-  - title: Iron Fist Season 2
-    type: show 
-    fichron_start: "2017"
-    fichron_end: "2017"
   - title: Daredevil Season 3
     type: show 
     fichron_start: "2016"
-    fichron_end: "2017"
-  - title: Punisher Season 2
-    type: show
-    fichron_start: "2017"
-    fichron_end: "2017"
-  - title: Jessica Jones Season 3
-    type: show 
-    fichron_start: "2017"
     fichron_end: "2017"
   - title: Ant-Man and the Wasp
     type: movie 
