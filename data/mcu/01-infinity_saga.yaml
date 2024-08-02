@@ -1,5 +1,5 @@
 title: Infinity Saga
-parent: Marvel Cinematic Universe
+parent: none
 multiverse: false
 primary_timeline:
   - title: Agent Carter
@@ -172,7 +172,15 @@ primary_timeline:
     type: movie 
     fichron_start: "2016"
     fichron_end: "2016"
-  - title: Daredevil S03E01
+  - title: Jessica Jones S02E01
+    type: show 
+    fichron_start: "2016"
+    fichron_end: "2016"
+  - title: Iron Fist S02E01
+    type: show 
+    fichron_start: "2016"
+    fichron_end: "2016"
+  - title: Luke Cage S02E01
     type: show 
     fichron_start: "2016"
     fichron_end: "2016"
@@ -180,6 +188,10 @@ primary_timeline:
     type: show 
     fichron_start: "2016"
     fichron_end: "2016"
+  - title: Daredevil S03E01
+    type: show 
+    fichron_start: "2016"
+    fichron_end: "2017"
   - title: Doctor Strange 
     type: movie 
     fichron_start: "2016"
@@ -188,7 +200,7 @@ primary_timeline:
     type: show 
     fichron_start: "2016"
     fichron_end: "2017"
-  - title: The Punisher Season 2
+  - title: The Punisher S02E01
     type: show 
     fichron_start: "2018"
     fichron_end: "2018"

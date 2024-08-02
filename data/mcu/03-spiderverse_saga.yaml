@@ -1,0 +1,150 @@
+title: Spiderverse Saga
+parent: 02-multiverse_saga.yaml
+multiverse: true
+primary_timeline:
+  - title: "Captain America: The First Avenger"
+    type: movie 
+    timeline: sacred
+    fichron_start: "2008"
+    fichron_end: "2010"
+    fichron_flashes:
+      - type: back
+        element: in-movie
+        fichron_start: "1942"
+        fichron_end: "1945"
+      - type: forward 
+        element: after-credits
+        fichron_date: "2012"
+  - title: Iron Man
+    type: movie 
+    timeline: sacred
+    fichron_start: "2009"
+    fichron_end: "2010"
+  - title: The Avengers
+    type: movie 
+    timeline: sacred
+    fichron_start: "2012" 
+    fichron_end: "2012" 
+  - title: Daredevil S01E13
+    type: show 
+    timeline: sacred
+    fichron_start: "2013"
+    fichron_end: "2013"
+  - title: "Avengers: Age of Ultron"
+    type: movie 
+    timeline: sacred
+    fichron_start: "2015"
+    fichron_end: "2015"
+  - title: Daredevil S02E01
+    type: show 
+    timeline: sacred
+    fichron_start: "2015"
+    fichron_end: "2015"
+  - title: "Captain America: Civil War"
+    type: movie 
+    timeline: sacred
+    fichron_start: "2016"
+    fichron_end: "2016"
+  - title: "Spider-Man: Homecoming"
+    type: movie 
+    timeline: sacred
+    fichron_start: "2016"
+    fichron_end: "2016"
+  - title: Doctor Strange 
+    type: movie 
+    timeline: sacred
+    fichron_start: "2016"
+    fichron_end: "2017"
+  - title: Daredevil S03E13
+    type: show 
+    timeline: sacred
+    fichron_start: "2016"
+    fichron_end: "2017"
+  - title: "Avengers: Infinity War"
+    type: movie
+    timeline: sacred
+    fichron_start: "2018"
+    fichron_end: "2018"
+  - title: "Avengers: Endgame"
+    type: movie
+    timeline: sacred
+    fichron_start: "2018"
+    fichron_end: "2023"
+  - title: Loki S02E05-S02E06
+    type: show
+    timeline: sacred
+    fichron_start: "infinity"
+    fichron_end: "infinity"
+  - title: What If S01E05
+    type: show 
+    timeline: zombie
+  - title: "Spider-Man: Far From Home"
+    type: movie 
+    timeline: sacred
+    fichron_start: "2024"
+    fichron_end: "2024"
+  - title: Into the Spider-verse 
+    type: movie 
+    timeline: spiderman-3
+    fichron_start: "202x"
+    fichron_end: "202x"
+  - title: Spider-Man 
+    type: movie 
+    timeline: spiderman-1
+    fichron_start: "200x"
+    fichron_end: "200x"
+  - title: Spider-Man 2
+    type: movie 
+    timeline: spiderman-1
+    fichron_start: "200x"
+    fichron_end: "200x"
+  - title: Spider-Man 3
+    type: movie 
+    timeline: spiderman-1
+    fichron_start: "200x"
+    fichron_end: "200x"
+  - title: The Amazing Spider-Man 
+    type: movie 
+    timeline: spiderman-2
+    fichron_start: "201x"
+    fichron_end: "201x"
+  - title: The Amazing Spider-Man 2
+    type: movie 
+    timeline: spiderman-2
+    fichron_start: "201x"
+    fichron_end: "201x"
+  - title: Venom
+    type: movie 
+    timeline: spiderman-2
+    fichron_start: "202x"
+    fichron_end: "202x"
+  - title: "Venom: Let There be Carnage (post-credits only)"
+    type: movie 
+    timeline: spiderman-2
+    fichron_start: "202x"
+    fichron_end: "202x"
+  - title: "Spider-Man: No Way Home"
+    type: movie 
+    timeline: sacred, spiderman-1, spiderman-2
+    fichron_start: "2024"
+    fichron_end: "2024"
+  - title: Across the Spider-verse 
+    type: movie 
+    timeline: spiderman-3, many
+    fichron_start: "202x"
+    fichron_end: "202x"
+  - title: Beyond the Spider-verse 
+    type: movie 
+    timeline: spiderman-3, tbd
+    fichron_start: "202x"
+    fichron_end: "202x"
+  - title: Deadpool 3
+    type: movie 
+    timeline: xmen-2
+    fichron_start: "202x"
+    fichron_end: "202x"
+  - title: "Avengers: Secret Wars"
+    type: movie 
+    timeline: sacred, tbd
+    fichron_start: "tbd"
+    fichron_end: "tbd"

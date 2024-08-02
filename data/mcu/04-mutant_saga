@@ -1,0 +1,84 @@
+title: Mutant Saga
+parent: 02-multiverse_saga.yaml
+multiverse: true
+primary_timeline:
+  - title: Loki S02E05-S02E06
+    type: show
+    timeline: sacred
+    fichron_start: "infinity"
+    fichron_end: "infinity"
+  - title: "X-Men: First Class"
+    type: movie
+    timeline: xmen-1
+    fichron_start: "196x"
+    fichron_end: "196x"
+  - title: "X-Men Origins: Wolverine"
+    type: movie
+    timeline: xmen-1
+    fichron_start: "197x"
+    fichron_end: "197x"
+  - title: X-Men
+    type: movie
+    timeline: xmen-1
+    fichron_start: "200x"
+    fichron_end: "200x"
+  - title: X2
+    type: movie
+    timeline: xmen-1
+    fichron_start: "200x"
+    fichron_end: "200x"
+  - title: The Wolverine
+    type: movie
+    timeline: xmen-1
+    fichron_start: "201x"
+    fichron_end: "201x"
+  - title: "X-Men: Days of Future Past: The Rouge Cut"
+    type: movie
+    timeline: xmen-1,xmen-2
+    fichron_start: "201x"
+    fichron_end: "197x"
+  - title: "X-Men: Apocalypse"
+    type: movie
+    timeline: xmen-2
+    fichron_start: "198x"
+    fichron_end: "198x"
+  - title: "X-Men: Dark Phoenix"
+    type: movie
+    timeline: xmen-2
+    fichron_start: "198x"
+    fichron_end: "198x"
+  - title: Deadpool
+    type: movie
+    timeline: xmen-2
+    fichron_start: "201x"
+    fichron_end: "201x"
+  - title: Deadpool 2
+    type: movie
+    timeline: xmen-2
+    fichron_start: "201x"
+    fichron_end: "201x"
+  - title: Logan
+    type: movie
+    timeline: xmen-2
+    fichron_start: "202x"
+    fichron_end: "202x"
+  - title: Doctor Strange and the Multiverse of Madness
+    type: movie
+    timeline: sacred, xmen-3
+    fichron_start: "2025"
+    fichron_end: "2025"
+  - title: The Marvels
+    type: movie 
+    timeline: sacred, xmen-3
+    fichron_start: "2026"
+    fichron_end: "2026"
+  - title: Deadpool 3
+    type: movie
+    timeline: xmen-2
+    fichron_start: "202x"
+    fichron_end: "202x"
+  - title: "Avengers: Secret Wars"
+    type: movie 
+    timeline: sacred, tbd
+    fichron_start: "tbd"
+    fichron_end: "tbd"

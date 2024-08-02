@@ -1,5 +1,5 @@
 title: Multiverse Saga
-parent: Marvel Cinematic Universe
+parent: 01-infinity_saga.yaml
 multiverse: true
 primary_timeline:
   - title: Loki Season 1
@@ -21,11 +21,11 @@ primary_timeline:
   - title: What If S01E01
     type: show 
     sacred_timeline: false
-  - title: Fantastic 4
-    type: movie
-    sacred_timeline: false 
   - title: X-Men The Animated Series S01E01-S01E03
     type: show 
+    sacred_timeline: false 
+  - title: Fantastic 4
+    type: movie
     sacred_timeline: false 
   - title: WandaVision S01E01 
     type: show 
@@ -154,6 +154,9 @@ primary_timeline:
   - title: Beyond the Spider-verse 
     type: movie 
     sacred_timeline: false  
+  - title: "Fantastic 4: Rise of the Silver Surfer"
+    type: movie
+    sacred_timeline: false 
   - title: The Eternals
     type: movie 
     sacred_timeline: true 
@@ -199,6 +202,11 @@ primary_timeline:
     sacred_timeline: true 
     fichron_start: "2025"
     fichron_end: "2025"
+  - title: She-Hulk Season 1
+    type: show 
+    sacred_timeline: true 
+    fichron_start: "2025"
+    fichron_end: "2025"
   - title: X-Men The Animated Series S04E16
     type: show 
     sacred_timeline: false 
@@ -208,19 +216,14 @@ primary_timeline:
   - title: Deadpool 2
     type: movie
     sacred_timeline: false 
-  - title: She-Hulk Season 1
+  - title: X-Men The Animated Series S04E18-S04E21
     type: show 
-    sacred_timeline: true 
-    fichron_start: "2025"
-    fichron_end: "2025"
+    sacred_timeline: false
   - title: Ms. Marvel Season 1
     type: show 
     sacred_timeline: true 
     fichron_start: "2025"
     fichron_end: "2025"
-  - title: X-Men The Animated Series S04E18-S04E21
-    type: show 
-    sacred_timeline: false
   - title: Fantastic Four S01E15-S01E17
     type: show 
     sacred_timeline: false
@@ -320,6 +323,9 @@ primary_timeline:
     sacred_timeline: true
     fichron_start: "tbd"
     fichron_end: "tbd"
+  - title: What If Season 3
+    type: show 
+    sacred_timeline: false 
   - title: "Avengers: Doomsday"
     type: movie 
     sacred_timeline: true
