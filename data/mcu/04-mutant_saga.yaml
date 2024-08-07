@@ -2,7 +2,7 @@ title: Mutant Saga
 parent: 02-multiverse_saga.yaml
 multiverse: true
 primary_timeline:
-  - title: Loki S02E05-S02E06
+  - title: Loki S02E06
     type: show
     timeline: sacred
     fichron_start: "infinity"
@@ -10,61 +10,81 @@ primary_timeline:
   - title: "X-Men: First Class"
     type: movie
     timeline: xmen-1
-    fichron_start: "196x"
-    fichron_end: "196x"
+    fichron_start: "1962"
+    fichron_end: "1962"
   - title: "X-Men Origins: Wolverine"
     type: movie
     timeline: xmen-1
-    fichron_start: "197x"
-    fichron_end: "197x"
+    fichron_start: "1976"
+    fichron_end: "1976"
   - title: X-Men
     type: movie
     timeline: xmen-1
-    fichron_start: "200x"
-    fichron_end: "200x"
+    fichron_start: "2001"
+    fichron_end: "2001"
   - title: X2
     type: movie
     timeline: xmen-1
-    fichron_start: "200x"
-    fichron_end: "200x"
+    fichron_start: "2010"
+    fichron_end: "2010"
   - title: The Wolverine
     type: movie
     timeline: xmen-1
-    fichron_start: "201x"
-    fichron_end: "201x"
-  - title: "X-Men: Days of Future Past: The Rouge Cut"
+    fichron_start: "2014"
+    fichron_end: "2014"
+  - title: "X-Men: Days of Future Past - The Rouge Cut"
     type: movie
     timeline: xmen-1,xmen-2
-    fichron_start: "201x"
-    fichron_end: "197x"
+    fichron_start: "2023 (xmen-1)"
+    fichron_end: "1973/2023 (xmen-2)"
+  - title: Legion Season 1
+    type: show
+    timeline: xmen-2
+    fichron_start: "1974"
+    fichron_end: "1974"
+  - title: Legion Season 2
+    type: show
+    timeline: xmen-2
+    fichron_start: "1975"
+    fichron_end: "1975"
+  - title: Legion Season 3
+    type: show
+    timeline: xmen-2, xmen-3
+    fichron_start: "1981 (xmen-2)"
+    fichron_end: "1949 (xmen-3)"
   - title: "X-Men: Apocalypse"
     type: movie
-    timeline: xmen-2
-    fichron_start: "198x"
-    fichron_end: "198x"
+    timeline: xmen-3
+    fichron_start: "1984"
+    fichron_end: "1984"
   - title: "X-Men: Dark Phoenix"
     type: movie
-    timeline: xmen-2
-    fichron_start: "198x"
-    fichron_end: "198x"
+    timeline: xmen-3
+    fichron_start: "1989"
+    fichron_end: "1989"
+  - title: New Mutants
+    type: movie
+    timeline: xmen-3
+    fichron_start: "2001"
+    fichron_end: "2001"
   - title: Deadpool
     type: movie
-    timeline: xmen-2
-    fichron_start: "201x"
-    fichron_end: "201x"
+    timeline: xmen-3
+    fichron_start: "2015"
+    fichron_end: "2016"
   - title: Deadpool 2
     type: movie
-    timeline: xmen-2
-    fichron_start: "201x"
-    fichron_end: "201x"
+    timeline: xmen-3, xmen-2, many*
+    fichron_start: "2016 (xmen-3)"
+    fichron_end: "2017 (xmen-2)"
   - title: Logan
     type: movie
     timeline: xmen-2
-    fichron_start: "202x"
-    fichron_end: "202x"
+    fichron_start: "2029"
+    fichron_end: "2029"
   - title: Doctor Strange and the Multiverse of Madness
     type: movie
-    timeline: sacred, xmen-3
+    timeline: sacred, xmen-4
     fichron_start: "2025"
     fichron_end: "2025"
   - title: The Marvels
@@ -74,9 +94,9 @@ primary_timeline:
     fichron_end: "2026"
   - title: Deadpool 3
     type: movie
-    timeline: xmen-2
-    fichron_start: "202x"
-    fichron_end: "202x"
+    timeline: xmen-2, sacred, many*
+    fichron_start: "2031"
+    fichron_end: "2031"
   - title: "Avengers: Secret Wars"
     type: movie 
     timeline: sacred, tbd

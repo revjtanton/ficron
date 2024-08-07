@@ -70,11 +70,16 @@ primary_timeline:
     timeline: sacred
     fichron_start: "2018"
     fichron_end: "2023"
-  - title: Loki S02E05-S02E06
+  - title: Loki S02E06
     type: show
     timeline: sacred
     fichron_start: "infinity"
     fichron_end: "infinity"
+  - title: Into the Spider-verse 
+    type: movie 
+    timeline: spiderman-3
+    fichron_start: "202x"
+    fichron_end: "202x"
   - title: What If S01E05
     type: show 
     timeline: zombie
@@ -83,11 +88,6 @@ primary_timeline:
     timeline: sacred
     fichron_start: "2024"
     fichron_end: "2024"
-  - title: Into the Spider-verse 
-    type: movie 
-    timeline: spiderman-3
-    fichron_start: "202x"
-    fichron_end: "202x"
   - title: Spider-Man 
     type: movie 
     timeline: spiderman-1
@@ -136,11 +136,6 @@ primary_timeline:
   - title: Beyond the Spider-verse 
     type: movie 
     timeline: spiderman-3, tbd
-    fichron_start: "202x"
-    fichron_end: "202x"
-  - title: Deadpool 3
-    type: movie 
-    timeline: xmen-2
     fichron_start: "202x"
     fichron_end: "202x"
   - title: "Avengers: Secret Wars"
